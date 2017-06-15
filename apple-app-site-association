@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "LL62P32G5C.com.mckinsey.UniversalLinkTest",
+      "paths": ["*"]
+    }
+    ]
+  }
+}
