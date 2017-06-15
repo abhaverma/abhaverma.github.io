@@ -10,9 +10,12 @@
             }
 
             function try_to_open_web_app() {
+                alert('in Func')
                 try {
+                    alert('in try')
                     document.location.href='mobileiron://yahoo.com/';
                 } catch (err) {
+                    alert('in catch')
                     document.location.href='https://www.yahoo.com';
                 }
 
