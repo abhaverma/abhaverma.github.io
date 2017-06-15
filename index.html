@@ -10,10 +10,14 @@
             }
 
             function try_to_open_web_app() {
-                setTimeout('openWeb()', 5000);
+                try {
+                    window.location.href='mobileiron://yahoo.com/';
+                } catch (err) {
+                    window.location.href='https://www.yahoo.com';
+                }
+
             }
 
-            open_appstore()
             try_to_open_web_app()
 
 
