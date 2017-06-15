@@ -4,7 +4,18 @@
             function open_appstore() {
                 window.location.href='mobileiron://yahoo.com/';
             }
+
+            function openWeb() {
+                window.location.href='https://www.google.com';
+            }
+
+            function try_to_open_web_app() {
+                setTimeout(openWeb, 300);
+            }
+
             open_appstore()
+            try_to_open_web_app()
+
 
         </script>
     </head>
